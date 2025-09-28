@@ -494,9 +494,8 @@
   justify-content: start;
   align-items: center;
   column-gap: 0.5rem;
-  padding: 0.5rem 1rem 0.4rem 0;
+  padding: 0.3rem 1rem 0.4rem 0;
   border-radius: 0.2rem;
-  transition: color 0.3s ease;
 }
 
 .hero-card-learnmore p {
@@ -513,15 +512,6 @@
 .hero-card-learnmore:hover {
   background-color: #010611;
   color: #f9f8fe;
-}
-
-.hero-card-learnmore span {
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-.hero-card-learnmore:hover span {
-  transform: scale(1.3) translateX(6px);
 }
 
 .startbuilding-section {
