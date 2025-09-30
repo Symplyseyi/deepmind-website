@@ -311,6 +311,7 @@
 
 .left-hero a .hero-learnmore-icon:hover span {
   transform: scale(1.3) translateX(4px);
+  colo
 }
 
 .left-hero a:hover .hero-learnmore-icon span {
@@ -334,7 +335,7 @@
 }
 
 .left-hero a:hover .hero-video video {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .right-hero {
