@@ -715,6 +715,7 @@
 .flow-app:hover,
 .whisk-app:hover {
   color: #f9f8fe;
+  transition: color 0.3s ease;
 }
 
 .gemini-learnmore {
@@ -750,6 +751,15 @@
 .voe-learnmore a:hover,
 .imagen-learnmore a:hover {
   color: #f9f8fe;
+}
+
+.gemini-app:hover span,
+.google-ai:hover span,
+.vertex-ai:hover span,
+.whisk-app:hover span,
+.flow-app:hover span {
+  transform: scale(1.3) translateX(4px);
+  font-size: 14px;
 }
 
 .arrow-icon {
