@@ -287,7 +287,7 @@
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  column-gap: 0.5rem;
+  column-gap: 0.6rem;
   transition: transform 0.3s ease, color 0.3s ease;
   padding: 0.5rem 1rem 0.5rem 0.5rem;
   color: #a7a4a4;
@@ -296,7 +296,8 @@
 .hero-learnmore-icon span {
   display: inline-block;
   transition: transform 0.3s ease;
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: -0.2rem;
 }
 
 .left-hero a .hero-learnmore-icon:hover {
@@ -312,10 +313,17 @@
 
 .left-hero a .hero-learnmore-icon:hover span {
   transform: scale(1.3) translateX(4px);
+  font-size: 14px;
 }
 
 .left-hero a:hover .hero-learnmore-icon span {
   transform: scale(1.3) translateX(4px);
+  font-size: 14px;
+  color: #f9f8fe;
+}
+
+.left-hero a:hover .hero-learnmore-icon p {
+  color: #f9f8fe;
 }
 
 .hero-video {
@@ -480,6 +488,15 @@
 .right-hero a:hover span {
   transform: scale(1.3) translateX(4px);
   font-size: 14px;
+  color: #f9f8fe;
+}
+
+.right-hero a:hover .hero-card-text-learnmore p {
+  color: #f9f8fe;
+}
+
+.right-hero a:hover .hero-card-learnmore p {
+  color: #f9f8fe;
 }
 
 .right-hero a .hero-card-text-learnmore:hover {
@@ -998,6 +1015,11 @@
 .research-items a:hover span {
   transform: scale(1.3) translateX(4px);
   font-size: 14px;
+  color: #f9f8fe;
+}
+
+.research-items a:hover .learnmore-link p {
+  color: #f9f8fe;
 }
 
 .research-items a .learnmore-link:hover {
