@@ -296,7 +296,7 @@
 .hero-learnmore-icon span {
   display: inline-block;
   transition: transform 0.3s ease;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .left-hero a .hero-learnmore-icon:hover {
@@ -308,11 +308,6 @@
   font-weight: 600;
   font-size: 0.95rem;
   border-radius: 0.3rem;
-}
-
-.hero-learnmore-icon span {
-  font-size: 14px;
-  display: inline-block;
 }
 
 .left-hero a .hero-learnmore-icon:hover span {
